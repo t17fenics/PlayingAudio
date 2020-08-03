@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 audioManager.setStreamVolume(AudioManager.STREAM_MUSIC, progress, 0);
             }
 
+
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {
 
